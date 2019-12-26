@@ -1,5 +1,9 @@
+<%= javascript_include_tag 'jquery_test' %>
+
 <h1>Tests#index</h1>
 <% @tests.each do |t| %>
   <%= t.name %>
 <% end %>
 <i class="far fa-smile-wink"></i>
+
+<p id="hoge">jQueryで赤色に変化</p>
