@@ -10,9 +10,27 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
  */
 
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
+
+@import './bases/reset';
+@import './bases/config';
+@import './bases/base';
+@import './bases/mixin';
+@import './bases/responsive';
+@import './bases/utility';
+
+@import './compornents/btn';
+@import './compornents/btn-outline';
+@import './compornents/form';
+@import './compornents/title';
+
+@import './layouts/header';
+@import './layouts/gnav';
+@import './layouts/main';
+@import './layouts/footer';
+@import './layouts/flash';
+@import './layouts/debug';
