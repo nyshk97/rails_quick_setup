@@ -1,24 +1,47 @@
-# README
+# Rails Quick Setup
+Railsプロジェクトのセットアップを高速化するために作ったサンプルです。
+[Railsプロジェクト作成時にやること全まとめ](https://qiita.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
 
-Things you may want to cover:
+- See `.ruby-version`.
 
-* Ruby version
+## Rails version
 
-* System dependencies
+- See `Gemfile`.
 
-* Configuration
+## Database version
 
-* Database creation
+- PostgreSQL >= 11.6
 
-* Database initialization
+## Project initiation
 
-* How to run the test suite
+```bash
+$ git@github.com:web-billing/app-rails.git
+```
+```bash
+$ bundle install --path vendor/bundle
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Configuration
 
-* Deployment instructions
+*ファイルの中身はご自身の環境に合わせて適宜変更してください*
 
-* ...
+- データベースの設定
+
+```bash
+$ cp config/database.yml.default config/database.yml
+```
+
+### Database creation
+
+```bash
+$ bundle exec rails db:create
+$ bundle exec rails db:migrate
+```
+
+## Run rails server
+
+```bash
+$ bundle exec rails server
+```
