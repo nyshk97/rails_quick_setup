@@ -1,7 +1,8 @@
 # Rails Quick Setup
 Railsプロジェクトのセットアップを高速化するために作ったサンプルです。
-[Railsプロジェクト作成時にやること全まとめ](https://qiita.com/d0ne1s/items/16b0815bb5bc0ed13eb8)
-[本番環境(Heroku)](https://rails-quick-setup.herokuapp.com/)
+
+- [Railsプロジェクト作成時にやること全まとめ(Qiita)](https://qiita.com/d0ne1s/items/16b0815bb5bc0ed13eb8)
+- [本番環境(Heroku)](https://rails-quick-setup.herokuapp.com/)
 
 ## Ruby version
 
